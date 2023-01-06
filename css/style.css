@@ -23,3 +23,56 @@ header {
 .fa-bars {
     display: none;
 }
+
+.introduction {
+padding: 115px;
+
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.intro-left-side {
+    padding-top: 133px;
+    min-width: 715px;
+}
+
+.intro-left-side h1{
+font-size: 72px;
+font-weight: 700;
+
+
+}
+
+.intro-left-side h1 span {
+    color: #FF8A56;
+    
+}
+
+.intro-left-side p {
+    color: #666;
+    padding-top: 34px;
+}
+
+.book-a-call {
+    padding-top: 34px;
+}
+
+.book-a-call button {
+    width: 151px;
+    height: 58px;
+    background: #222;
+    color: #fff;
+    margin-right: 40px;
+}
+
+.book-a-call a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #222;
+}
+
+.intro-right-side {
+    padding-top: 82px;
+    min-width: 450px;
+}

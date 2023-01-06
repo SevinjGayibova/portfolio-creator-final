@@ -1,5 +1,6 @@
-@media(max-width:860px) {
+@media(max-width:920px) {
     header {
+        
         padding-left: 30px !important;
         padding-right: 30px !important;
     }
@@ -14,5 +15,48 @@
         font-size: 24px;
         cursor: pointer;
 
+    }
+
+    .introduction {
+        padding-top: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin: 0 auto;
+        transform: translateX(0.5%);
+        overflow-x: hidden ;
+    }
+    .introduction .intro-left-side h1  {
+        text-align: center;
+    
+    }
+    .introduction .intro-left-side p  {
+        text-align: center;
+    }
+    .introduction .intro-left-side .book-a-call  {
+        text-align: center;
+    }
+    .intro-right-side {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+ 
+}
+    
+}
+
+@media(max-width:1280px) and (min-width:921px) {
+    .intro-left-side {
+        background-color: red;
+        flex-basis:100%;
+
+    }
+    .intro-left-side h1, .intro-left-side p, .intro-left-side .book-a-call {
+        text-align: center;
+
+    }
+
+    .intro-right-side {
+        margin: 0 auto;
+        text-align: center;
     }
 }
