@@ -1,13 +1,13 @@
 @media(max-width:920px) {
     header {
-        
+
         padding-left: 30px !important;
         padding-right: 30px !important;
     }
-    
+
     .nav-links {
         display: none;
-       
+
     }
 
     .fa-bars {
@@ -23,40 +23,80 @@
         padding-right: 0 !important;
         margin: 0 auto;
         transform: translateX(0.5%);
-        overflow-x: hidden ;
+        overflow-x: hidden;
     }
-    .introduction .intro-left-side h1  {
+
+    .introduction .intro-left-side h1 {
         text-align: center;
-    
+
     }
-    .introduction .intro-left-side p  {
+
+    .introduction .intro-left-side p {
         text-align: center;
     }
-    .introduction .intro-left-side .book-a-call  {
+
+    .introduction .intro-left-side .book-a-call {
         text-align: center;
     }
+
     .intro-right-side {
         display: flex;
         justify-content: center;
         margin: 0 auto;
- 
-}
-    
+
+    }
+
 }
 
 @media(max-width:1280px) and (min-width:921px) {
     .intro-left-side {
-        background-color: red;
-        flex-basis:100%;
+        
+        flex-basis: 100%;
 
     }
-    .intro-left-side h1, .intro-left-side p, .intro-left-side .book-a-call {
+
+    .intro-left-side h1,
+    .intro-left-side p,
+    .intro-left-side .book-a-call {
         text-align: center;
 
     }
 
     .intro-right-side {
         margin: 0 auto;
-        text-align: center;
+
     }
 }
+
+@media(max-width:768px) {
+
+    
+    .partner-companies .partner-company:nth-child(even) {
+
+        display: none;
+    }
+
+@media(max-width:500px) {
+
+    
+    .partner-companies .partner-company:not(:first-child) {
+
+        display: none;
+    
+    
+    }
+.intro-left-side h1 {
+
+    font-size: 48px !important;
+}
+    
+
+
+    .intro-right-side {
+        min-width: 300px;
+
+    }
+    
+
+}
+    
