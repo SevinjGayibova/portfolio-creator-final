@@ -86,10 +86,60 @@ font-weight: 700;
 }
 
 .partner-companies {
-    padding-top: 70px;
+    padding: 70px 289px; 
+    
     display: flex;
     justify-content: space-around;
 }
 /* Trusted-by section ends*/
 
+.services {
+    padding-top: 76px;
+}
+.services h6 {
+    text-align: center;
+    color: #FF5E69;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
 
+.services h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 54px;
+    padding-top: 20px;
+    
+}
+.services-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 117px 171px;
+    flex-wrap: wrap;
+   
+    
+}
+
+.services-cards h2 {
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 39px;
+    
+}
+
+.service-card {
+    min-width: 250px;
+}
+
+.service-card p {
+    width: 252px;
+    color: #666;
+    padding-top: 25px;
+}
+
+.services-cards ul {
+    list-style-position: inside;
+    font-weight: 700;
+    padding-top: 21px;
+    
+}
