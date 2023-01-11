@@ -170,19 +170,20 @@ font-weight: 700;
 
 }
 
-.projects-text-section button {
-    
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-    font-size: 18px;
-    padding-right: 112px;
-}
 
 .view-all-projects {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+
+.view-all-projects button {
+    margin-right: 112px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
 }
 .view-all-projects pre {
     font-size: 54px;
